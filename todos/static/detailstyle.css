@@ -1,0 +1,17 @@
+body {
+    background: linear-gradient(135deg, #5fd1a5, #1c5f61) !important;
+    background-blend-mode: multiply;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.custom-container {
+    background: rgba(255, 300, 247, 0.5);
+    text-align: center;
+    border: 1px solid black;
+    padding-bottom: 10px;
+    width: 500px !important;
+    border-radius: 20px;
+}

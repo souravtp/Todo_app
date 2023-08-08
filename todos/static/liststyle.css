@@ -1,0 +1,65 @@
+html {
+    min-height: 100%;
+}
+
+body {
+    background: linear-gradient(135deg, #5fd1a5, #1c5f61) !important;
+}
+
+.header-bar {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 25px;
+    height: 150px;
+}
+
+#time,
+#date {
+    font-size: x-large;
+    font-weight: 500;
+    color: #ffffff;
+}
+
+.title-bar {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.custom-card {
+    border-radius: 15px !important;
+}
+
+.custom-card-body {
+    display: flex;
+    flex-direction: column;
+}
+
+.container .bi {
+    color: rgb(0, 0, 0);
+}
+
+.task-complete {
+    color: green;
+}
+
+.task-incomplete {
+    color: red;
+}
+
+.task-description {
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 1;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.edit-keys {
+    margin-top: auto;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+}

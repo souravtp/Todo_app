@@ -1,0 +1,29 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background: linear-gradient(135deg, #5fd1a5, #1c5f61) !important;
+}
+
+.box {
+    box-sizing: border-box;
+    width: 60%;
+    padding: 15px !important;
+}
+
+.custom-input {
+    border: none;
+    outline: none;
+    border-radius: 30px;
+    height: 45px;
+    width: 50%;
+    background: rgba(255, 300, 247, 0.3);
+    padding-left: 20px ;
+    margin: 10px 0;
+    color: rgb(255, 255, 255) !important;
+}
+
+.tail-text {
+    margin-top: 15px;
+}
